@@ -33,3 +33,20 @@ const myfunction = function(){
 }
 console.log (typeof bigNumber);
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+//*******************************************************************************************************************************
+// 
+// stack (primitive) =
+// heap(non primitive) */
+let myname ="pradnya"
+let anothername =myname
+anothername = "shahu"
+console.log(myname);
+console.log(anothername);
+let pradnya ={
+    email:"pkolap@gamil.com",
+    pass :123
+}
+let shahu = pradnya
+shahu.email ="shahu@gamail.com"
+console.log(pradnya.email);
+console.log(shahu.email);
